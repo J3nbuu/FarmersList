@@ -1,10 +1,11 @@
 // Import Classes Here
+const Product = require('./classes/Product'); // Adjust the path if needed
 
 
+const carrots = new Product("Carrots", 4, "Bushel of carrots that have been freshly harvested for you");
 
-
-
-
+carrots.inStock; // true
+carrots.display(); // "Name: Carrots, Price: $4, Description: Bushel of carrots that have been freshly harvested for you"
 
 
 
@@ -26,7 +27,7 @@ try {
 } catch(e){
 
 }
-
+n
 try {
     module.exports = {
         Product,
